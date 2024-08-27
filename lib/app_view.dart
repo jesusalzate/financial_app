@@ -7,12 +7,12 @@ class MyAppView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      debugShowCheckedModeBanner: true,
+      debugShowCheckedModeBanner: false,
       title: "Expense Tracker",
       theme: ThemeData(
         colorScheme: const ColorScheme.light(
-          surface: Color.fromARGB(255, 199, 198, 198),
-          onSurface: Colors.black,
+          background: Color.fromARGB(255, 209, 209, 209),
+          onBackground: Colors.black,
           primary: Color.fromARGB(255, 31, 29, 172),
           secondary: Color.fromARGB(255, 150, 49, 54),
           tertiary: Color.fromARGB(255, 212, 172, 172)
